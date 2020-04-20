@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<title>Taski do wykonania ćwiczenia - Programowanie c++ - rekurencja</title>
+	<style type="text/css">
+		.zadanie{
+			width: 100%;
+			font-family: tahoma;
+			font-size: 18px;
+			color: black;
+			margin: 20px;
+		}
+		.task{
+			width: 1024px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 20px;
+			border: 2px solid orange;
+			border-radius: 25px;
+		}
+		.opiszadania{
+			text-align: center;
+		}
+		img{
+			width: 60%;
+			margin: 10px;
+		}
+		footer{
+			width: 100%;
+			font-family: tahoma;
+			font-size: 18px;
+			color: black;
+			text-align: center;
+		}
+		h1{
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<section class="zadanie">
+		<article class="task">
+			<h1>Rekurencja - Wprowadzenie</h1>
+			<p class="opiszadania">
+                            1. Celem ćwiczenia jest zapoznanie się z tematem: "Programowanie w języku c++ - REKURENCJA"<br>
+                            2. Zanim rozpoczniesz wykonywanie poniższych ćwiczeń, koniecznie obejrzyj darmowy kurs Pana Mirosława Zelenta, który omawia czym jest rekurencja, bez obejrzenia filmu, jeśli nie spotkałeś się wcześniej z terminem "REKURENCJI" możesz napotkać trudność w rozumieniu implementacji kodu poniższych zadań. Poniżej zamieszczam link do youtube<br>
+                            3. Zadania prześlij za pomocą poczty e-mail wraz ze screenami wykonanych programów<br>
+                            4. Screeny działających programów w konsoli np.<br>
+                            <img src="./img/Obraz1.png" alt="rekurencja c++" /><br>
+                            5. Uwaga nie przesyłamy całego projektu tylko pliki cpp. np. main.cpp (suma.cpp), main.cpp (silnia.cpp) itd. plus oczywiście screeny ;)<br>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/jNi_X5bvmQ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            
+                        </p>
+		</article>
+	</section>
+       <section class="zadanie">
+              <article class="task">
+                     <h1>Rekurencja - suma liczb</h1>
+                     <p class="opiszadania">
+                     1. Na początku zadania definiujemy potrzebne biblioteki oraz wpis "using namespace std;" aby skorzystać z przestrzeni nazw c++<br>
+                     Opisy oraz funkcje bibliotek: iostream, cstdlib, string, znajdziecie w podanym linku <a href="http://www.cplusplus.com/reference/">BIBLIOTEKI c++</a>
+                     <img src="./img/Obraz2.png" alt="rekurencja c++" /><br>
+                     2. Funkcja rekurencyjna o nazwie "suma" zwraca wartoś sumy liczb z podanej wartości "n" - np. dla n=3, wynik to 1+2+3=6, dla n=5 wynik to 1+2+3+4+5=15<br>
+                     3. W głównej funkcji main() mamy pokazane jak wywołać funkcję rekurencji suma(n) oraz definiujemy zmienną: "n" o typie int, zmienną "imie_nazwisko" o typie string<br>
+                     Oprócz funkcji rekurencyjnej suma() zwróć uwagę na kod: getline(cin,imie_nazwisko); dzięki tej instrukcji możemy wypisywać w konsoli imie i nazwisko oddzielone spacją<br>
+                     <img src="./img/Obraz3.png" alt="rekurencja c++" /><br>
+                     4. Przepisz w/w kod programu z obrazka do nowego projektu w Code Blocks, wykonaj screen działającego programu oraz wraz z plikiem main.cpp prześlij na maila: informatyka@pszczyna.edu.pl<br>
+                     </p>
+              </article>
+       </section>
+       <section class="zadanie">
+              <article class="task">
+                     <h1>Rekurencja - potęgowanie</h1>
+                     <p class="opiszadania">
+                     1. Funkcja rekurencyjna o nazwie "potega" zwraca wartoś potęgowania "liczby" całkowitej podniesionej do wykładnika liczby całkowitej "n" liczba^n np. 2^3=2*2*2=8<br>
+                     2. W głównej funkcji main() mamy pokazane jak wywołać funkcję rekurencyjną potega(n,liczba) oraz definiujemy zmienną: "n" o typie int, zmienną: liczba o typie int, zmienną: "imie_nazwisko" o typie string<br>
+                     <img src="./img/Obraz4.png" alt="rekurencja c++" /><br>
+                     3. Przepisz w/w kod programu z obrazka do nowego projektu w Code Blocks, wykonaj screen działającego programu oraz wraz z plikiem main.cpp prześlij na maila: informatyka@pszczyna.edu.pl<br>
+                     </p>
+              </article>
+       </section>
+       <section class="zadanie">
+              <article class="task">
+                     <h1>Rekurencja - ciąg fibonacciego</h1>
+                     <p class="opiszadania">
+                     1. Funkcja rekurencyjna o nazwie "fib(n)" zwraca wartoś ciągu fibonacciego<br>
+                     2. Dowiedz się więcej nt. funkcji ciąg fibonacciego w tym celu skorzystaj z materiału video Pana Mirosława Zelenta<br>
+                     <iframe width="560" height="315" src="https://www.youtube.com/embed/wb7kPaM8cfg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                     <img src="./img/Obraz5.png" alt="rekurencja c++" /><br>
+                     3. Przepisz w/w kod programu z obrazka do nowego projektu w Code Blocks, wykonaj screen działającego programu oraz wraz z plikiem main.cpp prześlij na maila: informatyka@pszczyna.edu.pl<br>
+                     </p>
+              </article>
+       </section>
+       <section class="zadanie">
+              <article class="task">
+                     <h1>Rekurencja - silnia</h1>
+                     <p class="opiszadania">
+                     1. Funkcja rekurencyjna o nazwie "silnia(n)" zwraca wartoś silni np. zapis 3! = 1*2*3 = 6 <br>
+                     <img src="./img/Obraz6.png" alt="rekurencja c++" /><br>
+                     2. Przepisz w/w kod programu z obrazka do nowego projektu w Code Blocks, wykonaj screen działającego programu oraz wraz z plikiem main.cpp prześlij na maila: informatyka@pszczyna.edu.pl<br>
+                     </p>
+              </article>
+       </section>
+	<section class="zadanie">
+		<article class="task">
+			<h1>KONIEC</h1>
+			<p class="opiszadania">
+				Za wszelkie uwagi i wyszukane błędy będę wdzięczny w celu poprawienia tutorialu<br>
+				Dziękuję za uwagę w razie pytań lub problemu wykonania ćwiczeń proszę kontakt: <i><a href="mailto:informatyka@pszczyna.edu.pl">informatyka@pszczyna.edu.pl</a></i>
+			</p>
+		</article>
+	</section>
+	<footer>
+		<fieldset>
+			<legend>Ćwiczenie dla Technika Programisty, Informatyka rozszerzona</legend>
+			Copyright by Walerasan 2020 PZSnr1
+		</fieldset>
+	</footer>
+</body>
+</html>
